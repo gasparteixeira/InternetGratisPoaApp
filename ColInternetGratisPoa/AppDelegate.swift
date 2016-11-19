@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  InternetGratisPoa
+//  ColInternetGratisPoa
 //
 //  Created by Gaspar on 12/11/16.
 //  Copyright © 2016 Gaspar Teixeira. All rights reserved.

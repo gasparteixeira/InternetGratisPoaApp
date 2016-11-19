@@ -7,46 +7,128 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EB0775BD1DD765BD003B8978 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0775BC1DD765BD003B8978 /* AppDelegate.swift */; };
-		EB0775BF1DD765BD003B8978 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0775BE1DD765BD003B8978 /* ViewController.swift */; };
-		EB0775C21DD765BD003B8978 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB0775C01DD765BD003B8978 /* Main.storyboard */; };
-		EB0775C41DD765BD003B8978 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB0775C31DD765BD003B8978 /* Assets.xcassets */; };
-		EB0775C71DD765BD003B8978 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB0775C51DD765BD003B8978 /* LaunchScreen.storyboard */; };
+		15F49DE4CCE4261AC3F54004 /* Pods_TabInternetGratisPoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CB9FFA73013D7D1DD2FF481 /* Pods_TabInternetGratisPoa.framework */; };
+		A2F82E5ADAA6AF745C2F8847 /* Pods_ColInternetGratisPoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 347DAAF7BD2021C3E6E3A1A8 /* Pods_ColInternetGratisPoa.framework */; };
+		EB1746071DDBDB4300EBDC7A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EBF6A7F21DD77C3A0079A50F /* Info.plist */; };
+		EB1746091DDBE77400EBDC7A /* DetalheViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1746081DDBE77400EBDC7A /* DetalheViewController.swift */; };
+		EB17460A1DDBE77400EBDC7A /* DetalheViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1746081DDBE77400EBDC7A /* DetalheViewController.swift */; };
+		EB236A431DD78950000EA198 /* Mapa.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBF6A7D31DD778470079A50F /* Mapa.storyboard */; };
+		EB236A441DD7966A000EA198 /* MapaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF6A7D71DD778D80079A50F /* MapaViewController.swift */; };
+		EB7D43FA1DDE530F000CB51C /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7D43F91DDE530F000CB51C /* CollectionViewCell.swift */; };
+		EBB649D21DD7F586004E342D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBB649D11DD7F586004E342D /* MapKit.framework */; };
+		EBF6A7B91DD766CE0079A50F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF6A7B81DD766CE0079A50F /* AppDelegate.swift */; };
+		EBF6A7BE1DD766CE0079A50F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBF6A7BC1DD766CE0079A50F /* Main.storyboard */; };
+		EBF6A7C01DD766CE0079A50F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBF6A7BF1DD766CE0079A50F /* Assets.xcassets */; };
+		EBF6A7C31DD766CE0079A50F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBF6A7C11DD766CE0079A50F /* LaunchScreen.storyboard */; };
+		EBF6A7CC1DD76CF10079A50F /* Rede.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF6A7C91DD768030079A50F /* Rede.swift */; };
+		EBF6A7D01DD76D940079A50F /* RedeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF6A7CD1DD76D940079A50F /* RedeManager.swift */; };
+		EBF6A7D61DD778470079A50F /* Mapa.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBF6A7D31DD778470079A50F /* Mapa.storyboard */; };
+		EBF6A7DA1DD778D80079A50F /* MapaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF6A7D71DD778D80079A50F /* MapaViewController.swift */; };
+		EBF6A7E71DD77C3A0079A50F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF6A7E61DD77C3A0079A50F /* AppDelegate.swift */; };
+		EBF6A7EC1DD77C3A0079A50F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBF6A7EA1DD77C3A0079A50F /* Main.storyboard */; };
+		EBF6A7EE1DD77C3A0079A50F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBF6A7ED1DD77C3A0079A50F /* Assets.xcassets */; };
+		EBF6A7F11DD77C3A0079A50F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBF6A7EF1DD77C3A0079A50F /* LaunchScreen.storyboard */; };
+		EBF6A7FB1DD77CD50079A50F /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF6A7FA1DD77CD50079A50F /* TableViewController.swift */; };
+		EBF6A7FD1DD77D000079A50F /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF6A7FC1DD77D000079A50F /* CollectionViewController.swift */; };
+		EBF6A7FE1DD781760079A50F /* Rede.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF6A7C91DD768030079A50F /* Rede.swift */; };
+		EBF6A7FF1DD7817A0079A50F /* RedeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF6A7CD1DD76D940079A50F /* RedeManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EB0775B91DD765BD003B8978 /* InternetGratisPoa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InternetGratisPoa.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EB0775BC1DD765BD003B8978 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EB0775BE1DD765BD003B8978 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EB0775C11DD765BD003B8978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EB0775C31DD765BD003B8978 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EB0775C61DD765BD003B8978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		EB0775C81DD765BD003B8978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D63A0109C653C431A791CB0 /* Pods-InternetGratisPoa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InternetGratisPoa.release.xcconfig"; path = "Pods/Target Support Files/Pods-InternetGratisPoa/Pods-InternetGratisPoa.release.xcconfig"; sourceTree = "<group>"; };
+		347DAAF7BD2021C3E6E3A1A8 /* Pods_ColInternetGratisPoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ColInternetGratisPoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B7B75E2C2D84779E76C48D5 /* Pods-TabInternetGratisPoa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabInternetGratisPoa.release.xcconfig"; path = "Pods/Target Support Files/Pods-TabInternetGratisPoa/Pods-TabInternetGratisPoa.release.xcconfig"; sourceTree = "<group>"; };
+		6CB9FFA73013D7D1DD2FF481 /* Pods_TabInternetGratisPoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TabInternetGratisPoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		766265866EF8E6D1AD10099F /* Pods-ColInternetGratisPoa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColInternetGratisPoa.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ColInternetGratisPoa/Pods-ColInternetGratisPoa.debug.xcconfig"; sourceTree = "<group>"; };
+		91E40A98E68BF0E59503FDCE /* Pods_InternetGratisPoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InternetGratisPoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D11FE4F10971AD65624EA7CF /* Pods-InternetGratisPoa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InternetGratisPoa.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InternetGratisPoa/Pods-InternetGratisPoa.debug.xcconfig"; sourceTree = "<group>"; };
+		EB1746081DDBE77400EBDC7A /* DetalheViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetalheViewController.swift; sourceTree = "<group>"; };
+		EB7D43F91DDE530F000CB51C /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		EBB649D11DD7F586004E342D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		EBF6A7B61DD766CE0079A50F /* ColInternetGratisPoa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColInternetGratisPoa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBF6A7B81DD766CE0079A50F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EBF6A7BD1DD766CE0079A50F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBF6A7BF1DD766CE0079A50F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBF6A7C21DD766CE0079A50F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EBF6A7C41DD766CE0079A50F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBF6A7C91DD768030079A50F /* Rede.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rede.swift; sourceTree = "<group>"; };
+		EBF6A7CD1DD76D940079A50F /* RedeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedeManager.swift; sourceTree = "<group>"; };
+		EBF6A7D31DD778470079A50F /* Mapa.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Mapa.storyboard; sourceTree = "<group>"; };
+		EBF6A7D71DD778D80079A50F /* MapaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapaViewController.swift; sourceTree = "<group>"; };
+		EBF6A7E41DD77C3A0079A50F /* TabInternetGratisPoa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabInternetGratisPoa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBF6A7E61DD77C3A0079A50F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EBF6A7EB1DD77C3A0079A50F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBF6A7ED1DD77C3A0079A50F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBF6A7F01DD77C3A0079A50F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EBF6A7F21DD77C3A0079A50F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBF6A7FA1DD77CD50079A50F /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		EBF6A7FC1DD77D000079A50F /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		EC3983D984F5060CE745EA80 /* Pods-ColInternetGratisPoa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColInternetGratisPoa.release.xcconfig"; path = "Pods/Target Support Files/Pods-ColInternetGratisPoa/Pods-ColInternetGratisPoa.release.xcconfig"; sourceTree = "<group>"; };
+		F0AC29845869724ABCAF94B8 /* Pods-TabInternetGratisPoa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabInternetGratisPoa.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TabInternetGratisPoa/Pods-TabInternetGratisPoa.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EB0775B61DD765BD003B8978 /* Frameworks */ = {
+		EBF6A7B31DD766CE0079A50F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2F82E5ADAA6AF745C2F8847 /* Pods_ColInternetGratisPoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF6A7E11DD77C3A0079A50F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBB649D21DD7F586004E342D /* MapKit.framework in Frameworks */,
+				15F49DE4CCE4261AC3F54004 /* Pods_TabInternetGratisPoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		28C613444847FB484EDBD628 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EBB649D11DD7F586004E342D /* MapKit.framework */,
+				91E40A98E68BF0E59503FDCE /* Pods_InternetGratisPoa.framework */,
+				347DAAF7BD2021C3E6E3A1A8 /* Pods_ColInternetGratisPoa.framework */,
+				6CB9FFA73013D7D1DD2FF481 /* Pods_TabInternetGratisPoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		51582DA0EFFDA6E13E95347D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D11FE4F10971AD65624EA7CF /* Pods-InternetGratisPoa.debug.xcconfig */,
+				0D63A0109C653C431A791CB0 /* Pods-InternetGratisPoa.release.xcconfig */,
+				766265866EF8E6D1AD10099F /* Pods-ColInternetGratisPoa.debug.xcconfig */,
+				EC3983D984F5060CE745EA80 /* Pods-ColInternetGratisPoa.release.xcconfig */,
+				F0AC29845869724ABCAF94B8 /* Pods-TabInternetGratisPoa.debug.xcconfig */,
+				4B7B75E2C2D84779E76C48D5 /* Pods-TabInternetGratisPoa.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EB0775B01DD765BD003B8978 = {
 			isa = PBXGroup;
 			children = (
 				EB0775BB1DD765BD003B8978 /* InternetGratisPoa */,
+				EBF6A7B71DD766CE0079A50F /* ColInternetGratisPoa */,
+				EBF6A7E51DD77C3A0079A50F /* TabInternetGratisPoa */,
 				EB0775BA1DD765BD003B8978 /* Products */,
+				51582DA0EFFDA6E13E95347D /* Pods */,
+				28C613444847FB484EDBD628 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		EB0775BA1DD765BD003B8978 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EB0775B91DD765BD003B8978 /* InternetGratisPoa.app */,
+				EBF6A7B61DD766CE0079A50F /* ColInternetGratisPoa.app */,
+				EBF6A7E41DD77C3A0079A50F /* TabInternetGratisPoa.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,34 +136,139 @@
 		EB0775BB1DD765BD003B8978 /* InternetGratisPoa */ = {
 			isa = PBXGroup;
 			children = (
-				EB0775BC1DD765BD003B8978 /* AppDelegate.swift */,
-				EB0775BE1DD765BD003B8978 /* ViewController.swift */,
-				EB0775C01DD765BD003B8978 /* Main.storyboard */,
-				EB0775C31DD765BD003B8978 /* Assets.xcassets */,
-				EB0775C51DD765BD003B8978 /* LaunchScreen.storyboard */,
-				EB0775C81DD765BD003B8978 /* Info.plist */,
+				EBF6A7D21DD7782A0079A50F /* View */,
+				EBF6A7D11DD7780C0079A50F /* Controller */,
+				EBF6A7C81DD767390079A50F /* Model */,
 			);
 			path = InternetGratisPoa;
+			sourceTree = "<group>";
+		};
+		EBF6A7B71DD766CE0079A50F /* ColInternetGratisPoa */ = {
+			isa = PBXGroup;
+			children = (
+				EBF6A7DC1DD77B6B0079A50F /* Suport Files */,
+				EBF6A7DE1DD77BD90079A50F /* View */,
+				EBF6A7FC1DD77D000079A50F /* CollectionViewController.swift */,
+				EB7D43F91DDE530F000CB51C /* CollectionViewCell.swift */,
+			);
+			path = ColInternetGratisPoa;
+			sourceTree = "<group>";
+		};
+		EBF6A7C81DD767390079A50F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EBF6A7C91DD768030079A50F /* Rede.swift */,
+				EBF6A7CD1DD76D940079A50F /* RedeManager.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		EBF6A7D11DD7780C0079A50F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EBF6A7D71DD778D80079A50F /* MapaViewController.swift */,
+				EB1746081DDBE77400EBDC7A /* DetalheViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		EBF6A7D21DD7782A0079A50F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EBF6A7D31DD778470079A50F /* Mapa.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		EBF6A7DC1DD77B6B0079A50F /* Suport Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBF6A7B81DD766CE0079A50F /* AppDelegate.swift */,
+				EBF6A7BF1DD766CE0079A50F /* Assets.xcassets */,
+				EBF6A7C11DD766CE0079A50F /* LaunchScreen.storyboard */,
+				EBF6A7C41DD766CE0079A50F /* Info.plist */,
+			);
+			name = "Suport Files";
+			sourceTree = "<group>";
+		};
+		EBF6A7DE1DD77BD90079A50F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EBF6A7BC1DD766CE0079A50F /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		EBF6A7E51DD77C3A0079A50F /* TabInternetGratisPoa */ = {
+			isa = PBXGroup;
+			children = (
+				EBF6A7F81DD77C970079A50F /* Suport Files */,
+				EBF6A7F91DD77CA10079A50F /* View */,
+				EBF6A7FA1DD77CD50079A50F /* TableViewController.swift */,
+			);
+			path = TabInternetGratisPoa;
+			sourceTree = "<group>";
+		};
+		EBF6A7F81DD77C970079A50F /* Suport Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBF6A7E61DD77C3A0079A50F /* AppDelegate.swift */,
+				EBF6A7ED1DD77C3A0079A50F /* Assets.xcassets */,
+				EBF6A7EF1DD77C3A0079A50F /* LaunchScreen.storyboard */,
+				EBF6A7F21DD77C3A0079A50F /* Info.plist */,
+			);
+			name = "Suport Files";
+			sourceTree = "<group>";
+		};
+		EBF6A7F91DD77CA10079A50F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EBF6A7EA1DD77C3A0079A50F /* Main.storyboard */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EB0775B81DD765BD003B8978 /* InternetGratisPoa */ = {
+		EBF6A7B51DD766CE0079A50F /* ColInternetGratisPoa */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EB0775CB1DD765BD003B8978 /* Build configuration list for PBXNativeTarget "InternetGratisPoa" */;
+			buildConfigurationList = EBF6A7C51DD766CE0079A50F /* Build configuration list for PBXNativeTarget "ColInternetGratisPoa" */;
 			buildPhases = (
-				EB0775B51DD765BD003B8978 /* Sources */,
-				EB0775B61DD765BD003B8978 /* Frameworks */,
-				EB0775B71DD765BD003B8978 /* Resources */,
+				30C1A5614110ED609FA3BD78 /* [CP] Check Pods Manifest.lock */,
+				EBF6A7B21DD766CE0079A50F /* Sources */,
+				EBF6A7B31DD766CE0079A50F /* Frameworks */,
+				EBF6A7B41DD766CE0079A50F /* Resources */,
+				A0C851E495308022E212EABA /* [CP] Embed Pods Frameworks */,
+				9E6402151B38F76836423B48 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = InternetGratisPoa;
-			productName = InternetGratisPoa;
-			productReference = EB0775B91DD765BD003B8978 /* InternetGratisPoa.app */;
+			name = ColInternetGratisPoa;
+			productName = ColInternetGratisPoa;
+			productReference = EBF6A7B61DD766CE0079A50F /* ColInternetGratisPoa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBF6A7E31DD77C3A0079A50F /* TabInternetGratisPoa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBF6A7F31DD77C3A0079A50F /* Build configuration list for PBXNativeTarget "TabInternetGratisPoa" */;
+			buildPhases = (
+				4D8CC4A477906CFBE9F3E70E /* [CP] Check Pods Manifest.lock */,
+				EBF6A7E01DD77C3A0079A50F /* Sources */,
+				EBF6A7E11DD77C3A0079A50F /* Frameworks */,
+				EBF6A7E21DD77C3A0079A50F /* Resources */,
+				A0B737294A0C29534371AA13 /* [CP] Embed Pods Frameworks */,
+				1F5BB3445C56EE75EEE4CB14 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TabInternetGratisPoa;
+			productName = TabInternetGratisPoa;
+			productReference = EBF6A7E41DD77C3A0079A50F /* TabInternetGratisPoa.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -90,14 +277,28 @@
 		EB0775B11DD765BD003B8978 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					New,
+					"New-1",
+				);
 				LastSwiftUpdateCheck = 0810;
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Gaspar Teixeira";
 				TargetAttributes = {
-					EB0775B81DD765BD003B8978 = {
+					EBF6A7B51DD766CE0079A50F = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 66TFW9PS7V;
 						ProvisioningStyle = Automatic;
+					};
+					EBF6A7E31DD77C3A0079A50F = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 66TFW9PS7V;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -114,49 +315,190 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EB0775B81DD765BD003B8978 /* InternetGratisPoa */,
+				EBF6A7B51DD766CE0079A50F /* ColInternetGratisPoa */,
+				EBF6A7E31DD77C3A0079A50F /* TabInternetGratisPoa */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		EB0775B71DD765BD003B8978 /* Resources */ = {
+		EBF6A7B41DD766CE0079A50F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB0775C71DD765BD003B8978 /* LaunchScreen.storyboard in Resources */,
-				EB0775C41DD765BD003B8978 /* Assets.xcassets in Resources */,
-				EB0775C21DD765BD003B8978 /* Main.storyboard in Resources */,
+				EBF6A7C31DD766CE0079A50F /* LaunchScreen.storyboard in Resources */,
+				EBF6A7D61DD778470079A50F /* Mapa.storyboard in Resources */,
+				EBF6A7C01DD766CE0079A50F /* Assets.xcassets in Resources */,
+				EBF6A7BE1DD766CE0079A50F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF6A7E21DD77C3A0079A50F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF6A7F11DD77C3A0079A50F /* LaunchScreen.storyboard in Resources */,
+				EB236A431DD78950000EA198 /* Mapa.storyboard in Resources */,
+				EBF6A7EE1DD77C3A0079A50F /* Assets.xcassets in Resources */,
+				EB1746071DDBDB4300EBDC7A /* Info.plist in Resources */,
+				EBF6A7EC1DD77C3A0079A50F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1F5BB3445C56EE75EEE4CB14 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TabInternetGratisPoa/Pods-TabInternetGratisPoa-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		30C1A5614110ED609FA3BD78 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4D8CC4A477906CFBE9F3E70E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9E6402151B38F76836423B48 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ColInternetGratisPoa/Pods-ColInternetGratisPoa-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0B737294A0C29534371AA13 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TabInternetGratisPoa/Pods-TabInternetGratisPoa-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0C851E495308022E212EABA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ColInternetGratisPoa/Pods-ColInternetGratisPoa-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		EB0775B51DD765BD003B8978 /* Sources */ = {
+		EBF6A7B21DD766CE0079A50F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB0775BF1DD765BD003B8978 /* ViewController.swift in Sources */,
-				EB0775BD1DD765BD003B8978 /* AppDelegate.swift in Sources */,
+				EBF6A7CC1DD76CF10079A50F /* Rede.swift in Sources */,
+				EBF6A7DA1DD778D80079A50F /* MapaViewController.swift in Sources */,
+				EB1746091DDBE77400EBDC7A /* DetalheViewController.swift in Sources */,
+				EB7D43FA1DDE530F000CB51C /* CollectionViewCell.swift in Sources */,
+				EBF6A7B91DD766CE0079A50F /* AppDelegate.swift in Sources */,
+				EBF6A7D01DD76D940079A50F /* RedeManager.swift in Sources */,
+				EBF6A7FD1DD77D000079A50F /* CollectionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF6A7E01DD77C3A0079A50F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF6A7E71DD77C3A0079A50F /* AppDelegate.swift in Sources */,
+				EBF6A7FE1DD781760079A50F /* Rede.swift in Sources */,
+				EB17460A1DDBE77400EBDC7A /* DetalheViewController.swift in Sources */,
+				EB236A441DD7966A000EA198 /* MapaViewController.swift in Sources */,
+				EBF6A7FB1DD77CD50079A50F /* TableViewController.swift in Sources */,
+				EBF6A7FF1DD7817A0079A50F /* RedeManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EB0775C01DD765BD003B8978 /* Main.storyboard */ = {
+		EBF6A7BC1DD766CE0079A50F /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EB0775C11DD765BD003B8978 /* Base */,
+				EBF6A7BD1DD766CE0079A50F /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		EB0775C51DD765BD003B8978 /* LaunchScreen.storyboard */ = {
+		EBF6A7C11DD766CE0079A50F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EB0775C61DD765BD003B8978 /* Base */,
+				EBF6A7C21DD766CE0079A50F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		EBF6A7EA1DD77C3A0079A50F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBF6A7EB1DD77C3A0079A50F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBF6A7EF1DD77C3A0079A50F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBF6A7F01DD77C3A0079A50F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -182,6 +524,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -232,6 +575,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -257,27 +601,61 @@
 			};
 			name = Release;
 		};
-		EB0775CC1DD765BD003B8978 /* Debug */ = {
+		EBF6A7C61DD766CE0079A50F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 766265866EF8E6D1AD10099F /* Pods-ColInternetGratisPoa.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 66TFW9PS7V;
-				INFOPLIST_FILE = InternetGratisPoa/Info.plist;
+				INFOPLIST_FILE = ColInternetGratisPoa/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.senacrs.edm.gt.InternetGratisPoa;
+				PRODUCT_BUNDLE_IDENTIFIER = com.senacrs.edm.gt.ColInternetGratisPoa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		EB0775CD1DD765BD003B8978 /* Release */ = {
+		EBF6A7C71DD766CE0079A50F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC3983D984F5060CE745EA80 /* Pods-ColInternetGratisPoa.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 66TFW9PS7V;
-				INFOPLIST_FILE = InternetGratisPoa/Info.plist;
+				INFOPLIST_FILE = ColInternetGratisPoa/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.senacrs.edm.gt.InternetGratisPoa;
+				PRODUCT_BUNDLE_IDENTIFIER = com.senacrs.edm.gt.ColInternetGratisPoa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EBF6A7F41DD77C3A0079A50F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0AC29845869724ABCAF94B8 /* Pods-TabInternetGratisPoa.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 66TFW9PS7V;
+				INFOPLIST_FILE = TabInternetGratisPoa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.senacrs.edm.gt.TabInternetGratisPoa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EBF6A7F51DD77C3A0079A50F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B7B75E2C2D84779E76C48D5 /* Pods-TabInternetGratisPoa.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 66TFW9PS7V;
+				INFOPLIST_FILE = TabInternetGratisPoa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.senacrs.edm.gt.TabInternetGratisPoa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -295,13 +673,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EB0775CB1DD765BD003B8978 /* Build configuration list for PBXNativeTarget "InternetGratisPoa" */ = {
+		EBF6A7C51DD766CE0079A50F /* Build configuration list for PBXNativeTarget "ColInternetGratisPoa" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EB0775CC1DD765BD003B8978 /* Debug */,
-				EB0775CD1DD765BD003B8978 /* Release */,
+				EBF6A7C61DD766CE0079A50F /* Debug */,
+				EBF6A7C71DD766CE0079A50F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBF6A7F31DD77C3A0079A50F /* Build configuration list for PBXNativeTarget "TabInternetGratisPoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBF6A7F41DD77C3A0079A50F /* Debug */,
+				EBF6A7F51DD77C3A0079A50F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
